@@ -39,7 +39,7 @@ Welcome to the Workshop on **Data Analysis Strategies for Single-Cell Image-Base
 
 ## Repository Structure
 
-- `notebooks/` – All hands-on notebooks by day  
-- `data/` – Sample Cell Painting datasets  
-- `env/` – Environment setup files (`requirements.txt`, etc.)  
-- `figures/` – Workshop visuals and supporting images
+- `notebooks/` – All hands-on notebooks
+- `macros/` – All ImageJ macros
+- `env/` – Environment setup files (`requirements.txt`, etc.)
+- `data/` – All sample image datasets 
