@@ -41,4 +41,41 @@ Welcome to the Workshop on **Data Analysis Strategies for Single-Cell Image-Base
 
 - `notebooks/` – All hands-on notebooks
 - `src/` – All ImageJ macros
-- `data/` – All sample image datasets 
+- `data/` – All sample image datasets
+
+## Instructions for installing Miniconda and running Jupyter Notebook
+
+### Installation
+
+Install the [conda](https://conda.io) package, dependency and environment manager.
+
+Download this github repository
+
+Then create the `IBP-workshop-env` conda environment:
+
+    cd <path to your git repository directory>
+    conda env create -f environment.yml
+
+This will install all necessary project dependencies.
+
+### Reinstalling the Environment
+
+If the environment already exists and you want to reinstall it (e.g., after editing `environment.yml`), first remove the old environment:
+
+    conda env remove -n image_analysis_env
+
+Then you can just recreate it using the steps above.
+
+## Usage
+
+Copy all project data to the [data](data) directory.
+
+Then run [Jupyter Lab](https://jupyter.org) from within the `image_analysis_env` conda environment:
+
+    cd <path to your git repository directory>
+    conda activate image_analysis_env
+    jupyter-lab
+
+All analysis notebooks can be found in the [notebooks](notebooks) directory.
+
+
