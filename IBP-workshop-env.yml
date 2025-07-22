@@ -1,4 +1,4 @@
-name: cell-segmentation-env
+name: IBP-workshop-env
 channels:
   - conda-forge
   - defaults
