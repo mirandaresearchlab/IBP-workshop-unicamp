@@ -54,7 +54,7 @@ Download this github repository
 Then create the `IBP-workshop-env` conda environment:
 
     cd <path to your git repository directory>
-    conda env create -f environment.yml
+    conda env create -f IBP-workshop-env.yml
 
 This will install all necessary project dependencies.
 
