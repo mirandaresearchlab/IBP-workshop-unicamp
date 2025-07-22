@@ -16,14 +16,15 @@ File.makeDirectory(output);
 
 list = getFileList(dir);
 
-for (i = 0; i < list.length; i++) {
+for (i = 0; i < list.length; i++) { 
     if (endsWith(list[i], ".tif")) {
         open(dir + list[i]);
         run("8-bit");
         run("Median...", "radius=2");
         setAutoThreshold("Otsu");
-        setOption("BlackBackground", false);
+        setOption("BlackBackground", true);
         run("Convert to Mask");
+        run("Invert");
         run("Fill Holes");
         run("Watershed");
         saveAs("Tiff", output + "mask_" + list[i]);
