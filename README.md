@@ -62,7 +62,7 @@ This will install all necessary project dependencies.
 
 If the environment already exists and you want to reinstall it (e.g., after editing `environment.yml`), first remove the old environment:
 
-    conda env remove -n image_analysis_env
+    conda env remove -n IBP-workshop-env
 
 Then you can just recreate it using the steps above.
 
@@ -73,7 +73,7 @@ Copy all project data to the [data](data) directory.
 Then run [Jupyter Lab](https://jupyter.org) from within the `image_analysis_env` conda environment:
 
     cd <path to your git repository directory>
-    conda activate image_analysis_env
+    conda activate IBP-workshop-env
     jupyter-lab
 
 All analysis notebooks can be found in the [notebooks](notebooks) directory.
