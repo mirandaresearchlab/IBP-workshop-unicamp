@@ -40,6 +40,5 @@ Welcome to the Workshop on **Data Analysis Strategies for Single-Cell Image-Base
 ## Repository Structure
 
 - `notebooks/` – All hands-on notebooks
-- `macros/` – All ImageJ macros
-- `env/` – Environment setup files (`requirements.txt`, etc.)
+- `src/` – All ImageJ macros
 - `data/` – All sample image datasets 
