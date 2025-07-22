@@ -1,0 +1,18 @@
+name: cell-segmentation-env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - numpy
+  - pandas
+  - matplotlib
+  - scikit-image
+  - imageio
+  - tqdm
+  - cellpose
+  - csbdeep
+  - stardist
+  - pip
+  - pip:
+      - imageio[ffmpeg]
