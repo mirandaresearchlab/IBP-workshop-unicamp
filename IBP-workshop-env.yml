@@ -11,7 +11,7 @@ dependencies:
   - plotly=6.2.0
   - scikit-learn=1.7.1
   - umap-learn=0.5.9.post2
-  - scikit-image=0.22 if
+  - scikit-image=0.22
   - imageio=2.36.1
   - csbdeep=0.8.1
   - stardist=0.9.1
