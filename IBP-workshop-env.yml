@@ -3,16 +3,23 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  - python=3.9
-  - numpy
-  - pandas
-  - matplotlib
-  - scikit-image
-  - imageio
-  - tqdm
-  - cellpose
-  - csbdeep
-  - stardist
+  - python=3.10
+  - numpy=1.26.4
+  - pandas=2.2.3
+  - matplotlib=3.8.4
+  - seaborn=0.13.2
+  - plotly=6.2.0
+  - scikit-learn=1.7.1
+  - umap-learn=0.5.9.post2
+  - scikit-image=0.22 if
+  - imageio=2.36.1
+  - csbdeep=0.8.1
+  - stardist=0.9.1
+  - cellpose=3.1.1.2
+  - tensorflow=2.15.0
+  - jupyterlab
+  - ipykernel
+  - ipywidgets
   - pip
   - pip:
-      - imageio[ffmpeg]
+    - imageio[ffmpeg]
